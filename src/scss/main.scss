@@ -1,0 +1,27 @@
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'base/basic';
+
+html {
+
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1378px;
+    margin: 0 auto;
+}
+
+@import 'components/sidepanel';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/home';
+@import 'pages/media';
