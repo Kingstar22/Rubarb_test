@@ -345,6 +345,12 @@
             padding: 0 72px 54px 72px;
         }
     }
+    .skills {
+        padding: 62px 0 54px 0;
+        .container {
+            padding: 0 21px;
+        }
+    }
     .performance {
         padding: 70px 0 70px 0;
         &__content {
@@ -703,6 +709,7 @@
             }
             &-buttons {
                 .button1, .button2 {
+
                     padding: 15px 39px 15px 39px;
                     font-size: 13px;
                     display: block;
@@ -719,7 +726,7 @@
                     }
                 }
                 .button2 {
-                    padding: 15px 15px 15px 15px;
+                    padding: 15px 19px 15px 19px;
                 }
             }
         }
