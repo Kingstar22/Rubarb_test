@@ -30,8 +30,6 @@
     &-link {
         margin-bottom: 12px;
         position: relative;
-
-
         width: 44px;
         height: 44px;
         display: flex;
@@ -44,11 +42,20 @@
 
         &:last-child {
             margin-bottom: 0;
+            &:hover {
+                border: 1px solid #3F65A6;
+                background-color: #3F65A6;
+            }
         }
         i {
             color: #fff;
         }
+        &:hover {
+            border: 1px solid #2CBDE2;
+            background-color: #2CBDE2;
+        }
     }
+
     &_dark {
         span {
             color: #c3c2c7;

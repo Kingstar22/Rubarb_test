@@ -28,6 +28,7 @@ padding: 44px 0 8px 0;
     }
     &__social {
         display: flex;
+        align-items: center;
         &-link {
             padding-right: 20px;
             text-decoration: none;
@@ -35,7 +36,20 @@ padding: 44px 0 8px 0;
             &:last-child {
                 padding-right: 0;
             }
+            &:hover {
+                .footer__social-icon {
+                    display: none;
+                    &_active {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        &-icon {
+            display: inline-block;
+            &_active {
+                display: none;
+            }
         }
     }
-
 }
